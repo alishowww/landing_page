@@ -9,13 +9,13 @@ body{
 }
 
 header{
-    background-color: blue;
+    background-color: red;
 }
 .logo{
     width: 250px;
 }
 #produtos{
-    background-color: red;
+    background-color: aqua;
     height: 700px;
     padding-top: 30px;
 }
@@ -73,4 +73,20 @@ header{
 .texto1 p{
     /*border: solid red 2px;*/
     text-align: justify;
+}
+
+.card{
+    border: solid 2px red;
+    width: 300px;
+    height: 500px;
+}
+
+.imagemcard{
+    width: 280px;
+}
+
+.preco{
+    color: red;
+    font-size: larger;
+    font-weight: bold;
 }
